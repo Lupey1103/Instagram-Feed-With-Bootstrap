@@ -1,0 +1,41 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+strong {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2px;
+    margin-right: 75%;
+    color: gray
+}
+
+.nav-header, .fa{
+    color: gray;
+}
+
+div.modal-button {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/* div.btn-group {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+} */
+
+img {
+    float: left;
+    width:  100px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */

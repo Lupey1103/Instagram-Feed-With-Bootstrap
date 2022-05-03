@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instafam</title>
+    <link rel="stylesheet" type="text/css" href="row.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  <div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">New Post</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                  <div>
+                    <i class="fa fa-camera" aria-hidden="true"></i>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Post</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="body-nav-fluid">
+    <div class="nav-header">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container d-flex">
+          <div>
+            <a class="navbar-brand" href="#">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <strong>Instagram</strong>
+          </div>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Create New Post
+          </button>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-secondary-light dropdown-toggle" data-toggle="dropdown" data-display="static" aria-expanded="false">
+                    <i class="fa fa-cog fa-lg" aria-hidden="true"></i>
+                  </button>
+              <div class="dropdown-menu dropdown-menu-lg-right">
+                <button class="dropdown-item" type="button">Edit Profile</button>
+                <button class="dropdown-item" type="button">Account Settings</button>
+                <button class="dropdown-item" type="button">Log Out</button>
+              </div>   
+        </div>      
+          </a>
+      </nav>
+    </div>
+  </div>
+  <div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="../index.html">
+            <i class="fa fa-th-large" aria-hidden="true"></i>
+          </a></li>
+          <li class="page-item"><a class="page-link" href="row.html">
+            <i class="fa fa-square" aria-hidden="true"></i>
+          </a></li>
+          </ul>
+      </nav>
+    </div>
+    <div class="">
+      <div class="card-column">
+        <div class="col mb-9">
+          <div class="card h-100">
+            <img src="https://variety.com/wp-content/uploads/2021/07/Joey-Jordison.jpg?w=1000" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">R.I.P Joey</h5>
+              <p class="card-text">Joey Jordison... Co-Founder of the Band Slipknot and IMO one of the best drummers to ever live. <strong>#metal #slipknot</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-9">
+          <div class="card h-100">
+            <img src="https://external-preview.redd.it/2mwbeyGphs_ElXPwQWuuBjLR9AzEbIxdzysfW8FuWYY.png?auto=webp&s=43a4a4ece675609791c43799264b727914a42abb" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lizard King!!!</h5>
+              <p class="card-text">Lizard King with the boned kickflips!! One of my favorite skaters to this day. He's not afraid of anything and does some crazy stuff. <strong>#sketchy #deathwish</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-9">
+          <div class="card h-100">
+            <img src="https://cdn.shopify.com/s/files/1/0163/6227/4916/articles/WEB_LY2_9426_800x.jpg?v=1624065465" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Full Send Baby!!!</h5>
+              <p class="card-text">Ken Block is a professional rally driver with the Hoonigan Racing Division, formerly known as the Monster World Rally Team. Block is also one of the co-founders of DC Shoes. Over the years, he has also competed in many action sports events including skateboarding, snowboarding, and motocross. <strong>#rally #dcshoes #hoonigan</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-9">
+          <div class="card h-100">
+            <img src="https://storage-asset.msi.com/event/2019/mystic-light-rgb-pc/images/partner01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">New PC, Who Dis?</h5>
+              <p class="card-text">Gaming, one of the best outlets for escaping the real world and having an amazing adventure to a far away land where respawning is your best friend. :) <strong>#gaming #gfuel #gitgudscrub</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-9">
+        <div class="card h-100">
+          <img src="https://cdn.shopify.com/s/files/1/0919/7894/products/FordFocus-2_1024x1024.jpg?v=1618609037" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Widebody Focus ST</h5>
+            <p class="card-text">The Focus ST is one of the cars I have had the most fun with. Out of all my cars, it has beenmy favorite build. <strong>#trackcar #bigturbo</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-9">
+        <div class="card h-100">
+          <img src="https://64.media.tumblr.com/984ef01727145a6151d9eb7ee101cc63/tumblr_n2z8oqbgU31tqgrqao1_1280.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mike Mo Capaldi</h5>
+            <p class="card-text">Mike Mo was my first favorite skater that I aspired to be like. With his steezy kickflips and his clean 360 flips, I was extemely inspired. <strong>#steezy #girlskateboards</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-9">
+        <div class="card h-100">
+          <img src="https://thumbs.gfycat.com/AccurateScrawnyHogget-size_restricted.gif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Quickscope!!!</h5>
+            <p class="card-text">Quickscoping is no easy task, but with a lot of practice, and an insane amount of Gfuel, you can be as good as me. lol <strong>#gitgudscrub #codcw #garbagegame</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-9">
+        <div class="card h-100">
+          <img src="https://media1.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif?cid=790b7611a62c39ef19218c19cf20ca808e1b6ad9589d64d6&rid=giphy.gif&ct=g" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">You Give Me Code Now!</h5>
+            <p class="card-text">Learning to code with 4Geeks has been a lot of fun, extremely frustrating but never the less a lot of fun. I find myself thinking about coding ever minute of every day. <strong>#4geeks #learningcode #!false_itsfunnycauseitstrue</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-9">
+        <div class="card h-100">
+          <img src="https://i2.wp.com/wallofsoundau.com/wp-content/uploads/2021/08/lorna-shore-nothingness-ep.jpg?fit=1000%2C1000&ssl=1" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Inhuman Noises!!</h5>
+            <p class="card-text">Lorna Shore is a band I have recently found that I just can't stop listening to. With the hardcore metal sound and the unnatural screams the lead vocalist makes, it's hard not to love this band. <strong>#metal #pignoises #lornashore</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
